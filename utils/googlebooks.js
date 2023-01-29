@@ -16,9 +16,9 @@ module.exports = async (phrase) => {
         status: results.status,
         statusText: results.statusText,
         headers: results.headers,
-        requestHeader: results.config.headers
+        requestHeader: (results.config ? results.config.headers : null)
     }
 
     //TODO: return the formattedObject
-    return JSON.stringify(results.data);
+    return JSON.stringify(formattedObj);
 }
