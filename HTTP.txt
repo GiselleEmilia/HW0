@@ -1,0 +1,112 @@
+﻿Giselle Manzano
+Web API
+January 29, 2023
+Assignment 0
+
+
+
+
+Request Headers
+
+
+User-Agent: It is simply the User-Agent
+Accept: Informs the server about types of data that can be sent back.
+Cache Control: Directives for caching mechanisms in both requests/responses
+Postman-Token: Scans your public workspaces, collections, environment, and documentation to find exposed authentication tokens.
+Host: Specifies the domain name of the server and optionally the TCP port
+Accept-Encoding: Informs the server about encodings (compression algorithms) supported.
+Connection: Indicates if the network connection stays open after the current transactions finished
+
+
+
+
+Response Headers
+
+
+Content_Type: Indicates the type of media in the resource
+Vary: Sets which header fields should be considered as varying if a file is requested from the cache.
+Content-Encoding: Tells us about the type of file.
+Date: When the message was originated.
+Server: Contains information about the software used by the origin server to handle the request
+Cache-Control:  Directives for caching mechanisms in both requests/responses
+X-XSS-Protection: feature that stops a page from loading it detects XSS attacks
+X_Frame-Options: Prevent the site from clickjacking attacks
+X-Content_Type-Options: act as a marker that indicates the MIME-types headers 
+Alt-Svc: allows server to inform a web browser about alternative ways to reach your website
+Transfer-Encoding: Hop By hop, message between two nodes
+
+
+Request Headers
+User-Agent: PostmanRuntime/7.30.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8bc25436-5531-451e-9128-c4932c48399c
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+▶Response Headers
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sun, 29 Jan 2023 18:50:08 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/25479220-10b71993-8245-41f7-9824-8a4ce589e801?action=collection%2Ffork&collection-url=entityId%3D25479220-10b71993-8245-41f7-9824-8a4ce589e801%26entityType%3Dcollection%26workspaceId%3D1e1fc155-7cfc-40f4-8382-e8a19315caba#?env%5BNew%20Environment%5D=W3sia2V5IjoiYm9va190aXRsZSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IlR1cmluZyIsInNlc3Npb25JbmRleCI6MH0seyJrZXkiOiJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IndhajYtRGF2bVg0QyIsInNlc3Npb25JbmRleCI6MX1d)
