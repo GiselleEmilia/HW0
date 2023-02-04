@@ -1,12 +1,4 @@
-## Submission
-- Create a readme.md at the root of your github repository with the embedded (markdown) 
-    - Within the collection click the (…), share collection -> Embed
-        - Static Button
-        - Click update link
-        - Include your environment settings
-        - Copy to clipboard 
-    - Check-in googlebooks command API with your change to google books
-    - Check-in text file headers.txt with header values
+
     
     ## <<SUBMISSIONS>>
     
