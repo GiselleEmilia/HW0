@@ -1,0 +1,8 @@
+- name: Autograding-alpha
+  # You may pin to the exact commit or the version.
+  # uses: you06/autograding@cd161632acc0ca2b1605522c466def5eb16a7439
+  uses: you06/autograding@go
+  with:
+    # GitHub token used to check repository content and provide feedback. By default,  this uses the repository token provided by GitHub Actions. You can customize this by replacing this token with a user token which has write-access to your repository.  Note that the token will be accessible to all repository collaborators.
+
+    token: # optional, default is ${{ github.token }}
